@@ -21,7 +21,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 	  <div class="container-fluid">
 	    <!-- Logo -->
-	    <a class="navbar-brand px-2 mx-5" id="skillsphere-logo" href="#">SkillSphere</a>
+	    <a class="navbar-brand px-2 mx-5" id="skillsphere-logo" href="#home">SkillSphere</a>
 	    
 	    <!-- Toggle Button for Small Screens -->
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,22 +32,223 @@
 	    <div class="collapse navbar-collapse" id="navbarNav">
 	      <ul class="navbar-nav ms-auto mx-5">
 	        <li class="nav-item">
-	          <a class="nav-link" aria-current="page" href="#">Home</a>
+	          <a class="nav-link" aria-current="page" href="#home">Home</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">Categories</a>
+	          <a class="nav-link" href="#categories-section">Categories</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#">About Us</a>
+	          <a class="nav-link" href="#about">About Us</a>
 	        </li>
 	      </ul>
 	    </div>
 	  </div>
 	</nav>
+
 	<!-- End Navbar section -->
 
-	
+	<!-- Start Home Section -->
+	<div class="container my-5" id="home">
+		<section class="hero bg-dark text-white py-5" 
+		         style="
+		         	background: linear-gradient(135deg, #008080, #4682B4);
+		         	">
+		  <div class="container text-center" id="introduction">
+		    <h1 class="display-4">Welcome to SkillSphere</h1>
+		    <p class="lead">Expand your knowledge with expert insights resources</p>
+		  </div>
+		</section>
 
+		<!-- Start Featured Products -->
+
+		<!-- Feature 1 -->
+		<section class="container py-5" id="featured">
+			<h2 class="text-center mb-4">Explore Our Learning Tools</h2>
+			<div class="row">
+				<!-- Featured Equipment Item 1 -->
+				<div class="col-md-4 mb-4">
+					<div class="card shadow-sm border-0 h-100">
+						<img src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2020/08/lesson.jpg" alt="" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Interactive Lessons</h5>
+							<p class="card-text">Learn programming with bite-sized lessons that are easy to follow.</p>
+							<a href="#" class="btn btn-primary stretched-link">Start Learning</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Feature 2 -->
+				<div class="col-md-4 mb-4">
+					<div class="card shadow-sm border-0 h-100">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx7KuOXQWlwZEYW36xGCvFCvr2J7tLKLvZcQ&s" class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">Learning Library</h5>
+							<p class="card-text">Access a wealth of resources, guides, and documentation to deepen your understanding of programming concepts.</p>
+							<a href="#" class="btn btn-primary stretched-link">Explore Resources</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Feature 3 -->
+				<div class="col-md-4 mb-4">
+					<div class="card shadow-sm border-0 h-100">
+						<img src="https://img.freepik.com/free-vector/cute-man-playing-game-computer-cartoon-vector-icon-illustration-people-technology-icon-isolated_138676-5731.jpg" class="card-img-top" alt="">
+						<div class="card-body">
+							<h5 class="card-title">Code Playground</h5>
+							<p class="card-text">Test your skills and experiment with code in a real-time coding environment.</p>
+							<a href="#" class="btn btn-primary stretched-link">Enter Playground</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End Featured Products -->
+
+	</div>
+
+	<!-- End Home section -->
+
+
+	<!-- Start Categories section -->
+	<div class="container py-3 mb-5 text-center" id="categories-section">
+	    <h2 class="text-center mb-4">Learning Categories</h2>
+	    <div class="row" id="categories">
+	        <!-- Category 1 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Programming Basics</h5>
+	                    <p class="card-text">Start with the fundamentals of coding, including syntax, variables, and data types.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Start Coding</a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Category 2 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Web Development</h5>
+	                    <p class="card-text">Learn how to build websites using HTML, CSS, and JavaScript, with hands-on projects.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Start Coding</a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Category 3 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Data Structures & Algorithms</h5>
+	                    <p class="card-text">Understand essential data structures like arrays, lists, and trees, and how to solve problems efficiently.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Start Coding</a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Category 4 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Mobile Development</h5>
+	                    <p class="card-text">Explore creating apps for mobile devices using popular frameworks like React Native or Flutter.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Start Coding</a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- Start Resources section -->
+	<div class="container py-3 mb-5 text-center" id="resources">
+	    <h2 class="text-center mb-4">Resources</h2>
+	    <div class="row">
+	        <!-- Resource 1 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Documentation</h5>
+	                    <p class="card-text">Comprehensive programming guides and reference materials to support your learning journey.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Discover</a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Resource 2 -->
+	        <div class="col-12 mb-4">
+	            <div class="card shadow-sm border-0 h-100 bg-dark text-white">
+	                <div class="card-body">
+	                    <h5 class="card-title">Tutorials</h5>
+	                    <p class="card-text">Step-by-step tutorials to help you master different programming topics.</p>
+	                    <a href="#" class="btn btn-primary stretched-link">Explore</a>
+	                </div>
+	            </div>
+	        </div>
+	</div>
+	<!-- End Resources section -->
+
+	<!-- End Categories section -->
+
+
+
+	<!-- Start About section -->
+	<div class="container py-5 mb-5" id="about">
+	    <h2 class="text-center mb-4">About Us</h2>
+	    
+	    <!-- Mission Statement -->
+	    <div id="mission" class="mb-5">
+	        <p class="text-center">
+	            To empower individuals with accessible and high-quality learning resources in programming.
+	        </p>
+	    </div>
+
+	    <!-- Contact and Map Section -->
+	    <div class="row">
+	        <!-- Contact Us Section -->
+	        <div class="col-12 col-md-6 mb-4 mb-md-0" id="contact">
+	            <h3 class="mb-3">Contact Us</h3>
+	            <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+	            <!-- Contact Form -->
+	            <form action="#" method="POST">
+	                <div class="mb-3">
+	                    <label for="name" class="form-label">Name</label>
+	                    <input type="text" class="form-control" id="name" name="name" required>
+	                </div>
+	                <div class="mb-3">
+	                    <label for="email" class="form-label">Email</label>
+	                    <input type="email" class="form-control" id="email" name="email" required>
+	                </div>
+	                <div class="mb-3">
+	                    <label for="message" class="form-label">Message</label>
+	                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+	                </div>
+	                <button type="submit" class="btn btn-success">Send</button>
+	            </form>
+	        </div>
+
+	        <!-- Map Section -->
+	        <div class="col-12 col-md-6">
+	            
+	            <!-- Embed Google Map -->
+	            <div class="embed-responsive embed-responsive-16by9">
+	            	<h3 class="mb-3">Our Location</h3>
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6991603.699017098!2d-100.0768425!3d31.168910300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e0!3m2!1sen!2sph!4v1732647410874!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- End About section -->
+
+
+
+	<!-- Start Footer -->
+	<footer class="footer bg-dark text-white text-center py-3">
+	    <p>&copy; 2024 SkillSphere. All rights reserved.</p>
+	</footer>
+
+	<!-- End Footer -->
 
 
 

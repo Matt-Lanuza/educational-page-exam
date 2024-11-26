@@ -5,6 +5,8 @@
 	box-sizing: border-box;
 }
 
+
+
 /*SkillSphere logo*/
 #skillsphere-logo {
 	font-family: "Silkscreen", sans-serif;
@@ -27,3 +29,20 @@
   border-color: rgba(0, 76, 153, 1.0);
   border-width: 2px;
 }
+
+
+/*Features*/
+.card-img-top {
+	object-fit: cover;
+	height: 300px; 
+	width: 100%; 
+}
+
+#contact, .embed-responsive {
+    background-color: #B0C4DE; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
